@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LicenseManager" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea98407e-9410-4653-b050-e1e60e2c2d2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Activate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Add.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Deactivate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Delete.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/ExtendExpirationDate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/GetActive.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/GetAll.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Lock.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/LockAll.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Unlock.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/interfaces/ICommandHandlerAction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ApiBuilder.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libs/ApiBuilder.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/EnumStorage.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libs/EnumStorage.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/licensemanager/command/CommandSocket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/command/CommandSocket.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/licensemanager/command/CommandSocketHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/command/CommandSocketHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/licensemanager/command/interfaces/ICommandSocket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/command/interfaces/ICommandSocket.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/licensemanager/command/interfaces/ICommandSocketHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/command/interfaces/ICommandSocketHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/licensemanager/database/DatabaseHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/database/DatabaseHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/licensemanager/database/interfaces/IDatabaseHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/database/interfaces/IDatabaseHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/licensemanager/encryption/Encryption.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/licensemanager/encryption/interfaces/IEncryption.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/CommandHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/CommandHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/LicenseHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/LicenseHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/interfaces/ICommandHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/interfaces/ICommandHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/interfaces/ILicenseHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/interfaces/ILicenseHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/licensemanager/license/DefaultLicense.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/license/DefaultLicense.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/licensemanager/license/License.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/licensemanager/license/interfaces/IDefaultLicense.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/licensemanager/license/interfaces/IDefaultLicense.kt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/CommandHandler.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+              <folding>
+                <element signature="e#32#603#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/license/DefaultLicense.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="16" column="97" selection-start-line="16" selection-start-column="97" selection-end-line="16" selection-end-column="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/LicenseHandler.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="283" column="38" selection-start-line="283" selection-start-column="38" selection-end-line="283" selection-end-column="38" />
+              <folding>
+                <element signature="e#32#504#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Add.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/ExtendExpirationDate.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#39#376#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Object" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>serial</find>
+      <find>error oc</find>
+      <find>Error while generating RSA keys. Us</find>
+      <find>serialNumber</find>
+      <find>id: String</find>
+      <find>licenseid</find>
+      <find>id: Str</find>
+      <find>id&quot;).toS</find>
+      <find>defaultlicenseId</find>
+      <find>&quot;Exten</find>
+      <find>&quot;Act</find>
+      <find>&quot;id&quot;</find>
+      <find>&quot;por</find>
+      <find>&quot;sta</find>
+      <find>toLowerCase</find>
+      <find>toUpp</find>
+      <find>license.default</find>
+      <find>license.proper</find>
+      <find>languages.pr</find>
+      <find>LicenseResponse</find>
+      <find>Success</find>
+      <find>ACTIVE</find>
+      <find>true</find>
+      <find>(true</find>
+      <find>license.getId()</find>
+      <find>license.getSerialNumber()</find>
+      <find>message: JSONObject</find>
+      <find>import apibuilder.license.`object`.LicenseObject</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>id: Int</replace>
+      <replace>licenseId</replace>
+      <replace>defaultLicenseId</replace>
+      <replace>ApiSuccess</replace>
+      <replace>Active</replace>
+      <replace>license.id</replace>
+      <replace>license.serialNumber</replace>
+      <replace>message: JSONArray</replace>
+      <replace>import apibuilder.license.objects.LicenseObject</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/license/enums/LicenseInformation.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/errorhandler/ErrorHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/command/enums/Command.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/command/CommandHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/license.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/ports.properties" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/Ports.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/interfaces/ILicense.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/License.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/Database.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/interfaces/IDatabase.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/IMaster.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/Master.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/master.properties" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/Handler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/Runner.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/Main.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/master/master.properties" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/DatabaseProperties.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/interfaces/IDatabaseProperties.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/database/database.properties" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/license/License.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/license/interfaces/ILicense.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/update.properties" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/UpdateInformation.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/LicenseManagerRunner.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/command/interfaces/ICommandSocket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/command/CommandSocketHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/command/interfaces/ICommandSocketHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/database/interfaces/IDatabaseHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/license/interfaces/IDefaultLicense.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/database/DatabaseHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/interfaces/ICommandHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/command/CommandSocket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/interfaces/ICommandHandlerAction.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Unlock.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Activate.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Deactivate.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Lock.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/LockAll.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Delete.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/GetAll.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/interfaces/ILicenseHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/GetActive.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/ExtendExpirationDate.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Add.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/CommandHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/LicenseHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/licensemanager/license/DefaultLicense.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LicenseManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LicenseManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="LicenseManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LicenseManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LicenseManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LicenseManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LicenseManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LicenseManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="LicenseManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LicenseManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LicenseManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LicenseManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="licensemanager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LicenseManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LicenseManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="licensemanager" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LicenseManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LicenseManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="licensemanager" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LicenseManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LicenseManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="licensemanager" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LicenseManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LicenseManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="licensemanager" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LicenseManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LicenseManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="licensemanager" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LicenseManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LicenseManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="licensemanager" type="462c0819:PsiDirectoryNode" />
+              <item name="license" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LicenseManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LicenseManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565197599707" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="licensemanager.handler" />
+      <recent name="licensemanager.properties.interfaces" />
+      <recent name="licensemanager.command.enums" />
+      <recent name="licensemanager.encryption" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\LicenseManager\libs" />
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\LicenseManager\src\main\resources" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="licensemanager.handler.action" />
+      <recent name="licensemanager.handler.interfaces" />
+      <recent name="licensemanager" />
+      <recent name="licensemanager.properties" />
+      <recent name="licensemanager.properties.interfaces" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\LicenseManager\src\main\resources\ports" />
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\LicenseManager\src\main\resources\master" />
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\LicenseManager\src\main\resources\license" />
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\LicenseManager\src\main\resources\database" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Kotlin.licensemanager.MainKt">
+    <configuration name="licensemanager.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LicenseManager_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="licensemanager.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="licensemanager.encryption.RSAKeyPairGenerator" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LicenseManager_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="licensemanager.encryption.RSAKeyPairGenerator" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.licensemanager.MainKt" />
+        <item itemvalue="Kotlin.licensemanager.encryption.RSAKeyPairGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea98407e-9410-4653-b050-e1e60e2c2d2d" name="Default Changelist" comment="" />
+      <created>1552732116873</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552732116873</updated>
+    </task>
+    <task id="LOCAL-00001" summary="New licenses must be encrypted now. RSA not included">
+      <created>1552737523756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552737523756</updated>
+    </task>
+    <task id="LOCAL-00002" summary="RSA encryption module added&#10;Serial number verification added">
+      <created>1552850008114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552850008114</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Code Refactoring">
+      <created>1555964587991</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555964587991</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Code Refactoring finished">
+      <created>1560286267726</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560286267726</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Refactored for implementing as JAR in backend application">
+      <created>1560369155858</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560369155858</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Properties updated">
+      <created>1560369826375</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560369826375</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Properties refactored">
+      <created>1560371753526</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560371753526</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Refactoring">
+      <created>1560533363313</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560533363313</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Runner added">
+      <created>1560720786071</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560720786071</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Refactoring">
+      <created>1560980660750</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560980660750</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Refactoring finished">
+      <created>1561486187010</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1561486187010</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Bugfixing">
+      <created>1561491170526</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1561491170526</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15085287" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32286024" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New licenses must be encrypted now. RSA not included" />
+    <MESSAGE value="RSA encryption module added&#10;Serial number verification added" />
+    <MESSAGE value="Code Refactoring" />
+    <MESSAGE value="Code Refactoring finished" />
+    <MESSAGE value="Refactored for implementing as JAR in backend application" />
+    <MESSAGE value="Properties updated" />
+    <MESSAGE value="Properties refactored" />
+    <MESSAGE value="Runner added" />
+    <MESSAGE value="Refactoring" />
+    <MESSAGE value="Refactoring finished" />
+    <MESSAGE value="Bugfixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugfixing" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/enums/DatabaseCommand.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/languages.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/command/enums/Command.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/interfaces/IPortsProperties.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/PortsProperties.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/LicenseProperties.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/interfaces/ILicenseProperties.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/errorhandler/ErrorHandler.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/json/Json.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/license/interfaces/ISerialNumber.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/interfaces/IMasterProperties.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/license/SerialNumber.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/license/license.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/master/master.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ports/ports.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/MasterProperties.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/interfaces/IDatabaseProperties.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database/database.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/properties/DatabaseProperties.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/license/interfaces/ILicense.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#43#148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="94" selection-start-line="94" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/LicenseManagerRunner.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#24#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/update.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/UpdateInformation.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/license/License.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/command/interfaces/ICommandSocket.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/command/interfaces/ICommandSocketHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/encryption/Encryption.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/database/interfaces/IDatabaseHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/license/interfaces/IDefaultLicense.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" lean-forward="true" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/database/DatabaseHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#33#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/command/CommandSocketHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/interfaces/ICommandHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/command/CommandSocket.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/ApiBuilder.jar!/apibuilder/license/response/ResponseItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/interfaces/ICommandHandlerAction.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="e#43#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Activate.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Deactivate.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Lock.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/LockAll.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Unlock.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#39#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Delete.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#39#369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/interfaces/ILicenseHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/GetAll.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="e#39#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/GetActive.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/ExtendExpirationDate.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#39#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/action/Add.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/CommandHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <folding>
+            <element signature="e#32#603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/handler/LicenseHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="283" column="38" selection-start-line="283" selection-start-column="38" selection-end-line="283" selection-end-column="38" />
+          <folding>
+            <element signature="e#32#504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/licensemanager/license/DefaultLicense.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="97" selection-start-line="16" selection-start-column="97" selection-end-line="16" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>LicenseManager</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kotlin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LicenseManager</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: :ApiBuilder:</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
